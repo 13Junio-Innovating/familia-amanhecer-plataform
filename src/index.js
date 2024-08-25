@@ -16,7 +16,8 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div
-      className="bg-fixed bg-cover bg-center min-h-screen"
+      // className="bg-fixed bg-cover bg-center min-h-screen"
+      className="bg-container"
       style={{ backgroundImage: `url(${background})` }}
     >
       <Router>

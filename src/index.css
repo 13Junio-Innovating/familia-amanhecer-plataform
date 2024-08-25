@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-container {
+    /* background-image: url('/path/to/your/background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .bg-container {
+      height: 80vh; /* Ajuste a altura em telas menores, se necessário */
+    }
+  }
+  
