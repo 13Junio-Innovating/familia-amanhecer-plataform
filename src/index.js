@@ -17,7 +17,7 @@ function App() {
   return (
     <div
       // className="bg-fixed bg-cover bg-center min-h-screen"
-      className="bg-container"
+      className="bg-container min-h-screen"
       style={{ backgroundImage: `url(${background})` }}
     >
       <Router>
