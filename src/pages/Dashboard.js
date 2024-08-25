@@ -3,7 +3,7 @@ import React from 'react';
 const Dashboard = () => {
   const videos = [
     { title: "Video 1", link: "https://www.youtube.com/watch?v=L4T4j8J5sUY&list=RDL4T4j8J5sUY&start_radio=1" },
-    { title: "Video 2", link: "https://www.jw.org/pt/biblioteca/videos/#pt/mediaitems/StudioFeatured/pub-jwb-115_1_VIDEO" },
+    { title: "Video 2", link: "https://link-to-video-2.com" },
     { title: "Video 3", link: "https://link-to-video-1.com" },
     { title: "Video 4", link: "https://link-to-video-2.com" },
     { title: "Video 5", link: "https://link-to-video-1.com" },

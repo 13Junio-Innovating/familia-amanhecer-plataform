@@ -11,20 +11,6 @@ const Login = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Aqui você deve adicionar lógica para verificar o usuário
-  //   // Para fins de demonstração, vamos verificar com dados do localStorage
-  //   const storedUser = JSON.parse(localStorage.getItem('user'));
-
-  //   if (storedUser && storedUser.email === formData.email && storedUser.senha === formData.senha) {
-  //     navigate('/dashboard');
-  //   } else {
-  //     navigate('/cadastrar'); // Redirecionar para cadastro se não estiver registrado
-  //   }
-  // };
-
-  // Exemplo do handleSubmit completo
 const handleSubmit = (e) => {
   e.preventDefault();
 
@@ -35,7 +21,7 @@ const handleSubmit = (e) => {
     navigate('/dashboard');
   } else {
     toast.error('Email ou senha incorretos. Redirecionando para cadastro...');
-    navigate('/cadastrar'); // Redirecionar para cadastro se não estiver registrado
+    navigate('/cadastrar');
   }
 };
 

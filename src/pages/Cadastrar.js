@@ -10,13 +10,6 @@ const Cadastrar = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Aqui você deve adicionar lógica para salvar os dados do usuário
-  //   // Para fins de demonstração, vamos salvar no localStorage
-  //   localStorage.setItem('user', JSON.stringify(formData));
-  //   navigate('/login');
-  // };
   const handleSubmit = (e) => {
     e.preventDefault();
     

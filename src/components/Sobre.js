@@ -4,7 +4,7 @@ const Sobre = () => {
   return (
     <section id="sobre" className="text-gray-800 py-20">
     <div className="max-w-7xl mx-auto px-6">
-      <p className="text-lg my-16"> {/* Aqui você pode ajustar a classe `my-8` para controlar o espaçamento vertical */}
+      <p className="text-lg my-16">
         Fundadora do Instituto Crer & SER Gente e idealizadora do Projeto:<br/>
         Adolescer para a Vida e do Programa de Desenvolvimento Pessoal e<br/>
         Inteligência Emocional “Família Amanhecer”. 

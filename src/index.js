@@ -10,8 +10,8 @@ import Login from './pages/Login';
 import Footer from './components/Footer';
 import Cadastrar from './pages/Cadastrar'; 
 import Dashboard from './pages/Dashboard';
-import { ToastContainer } from 'react-toastify'; // Importar ToastContainer
-import 'react-toastify/dist/ReactToastify.css'; // Importar estilos do Toastify
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 function App() {
   return (
