@@ -1,37 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './index.css'; 
-// import background from './assests/background.jpg';
-// import Header from './components/Header';
-// import Sobre from './components/Sobre';
-// import VideoCarousel from './components/VideoCarrossel';
-// import Login from './components/Login';
-// import Footer from './components/Footer';
-
-// function App() {
-//   return (
-//     <div
-//       className="bg-fixed bg-cover bg-center min-h-screen"
-//       style={{ backgroundImage: `url(${background})` }}
-//     >
-//       <Header />
-//       <main className="pt-16">
-//         <Sobre />
-//         <VideoCarousel />
-//         <Login />
-//       </main>
-//       <Footer /> 
-//     </div>
-//   );
-// }
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
