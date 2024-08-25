@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Família Amanhecer Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao projeto **Família Amanhecer Platform**! Este é um aplicativo desenvolvido para a **Família Amanhecer**, com o objetivo de fornecer uma plataforma interativa para gerenciar vídeos e livros de referência, bem como uma página inicial e seções de login e cadastro.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Página Inicial**: Inclui um cabeçalho fixo, uma imagem de fundo e seções de sobre, vídeos e login.
+- **Vídeos**: Exibe um carrossel de vídeos com controles para navegação.
+- **Cadastro e Login**: Permite que os usuários se cadastrem e façam login para acessar a dashboard.
+- **Dashboard**: Oferece acesso a vídeos e livros de referência com separação em seções.
+- **Footer**: Exibe a logo e informações de direitos autorais no rodapé.
 
-### `npm start`
+## Tecnologias e Ferramentas Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: Biblioteca JavaScript para construir a interface de usuário.
+- **Tailwind CSS**: Framework CSS para estilização e design responsivo.
+- **React Router**: Biblioteca para roteamento e navegação entre páginas.
+- **react-toastify**: Biblioteca para exibição de mensagens de notificação (toasts).
+- **Babel**: Transpilador JavaScript utilizado para compatibilidade com diferentes navegadores.
+- **Webpack**: Empacotador de módulos para a aplicação.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Baixar e Rodar o Projeto
 
-### `npm test`
+1. **Clone o Repositório**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone git@github.com:13Junio-Innovating/familia-amanhecer-plataform.git
 
-### `npm run build`
+2. **Navegue para o Diretório do Projeto** 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    cd familia-amanhecer-plataform
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Instale as Dependências**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Certifique-se de ter o Node.js instalado. Então, execute o comando para instalar as dependências:
 
-### `npm run eject`
+    ```bash
+    npm install
+4. **Configure as Variáveis de Ambiente**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Crie um arquivo .env na raiz do projeto com as variáveis de ambiente necessárias. Um exemplo de configuração pode ser:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    dotenv
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    REACT_APP_API_URL=https://api.example.com
+    Inicie o Servidor de Desenvolvimento
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Para rodar o servidor de desenvolvimento e ver a aplicação em ação, use:**
 
-## Learn More
+    ```bash
+    npm start
+    Isso iniciará a aplicação em http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. **Acesse o Projeto**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Abra seu navegador e vá para http://localhost:3000 para visualizar a aplicação em execução.
 
-### Code Splitting
+7. **Contribuição**
+    Se você deseja contribuir para este projeto, siga estas etapas:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+8. **Faça um Fork do Repositório**
 
-### Analyzing the Bundle Size
+    Crie uma Nova Branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+     ```bash
+    git checkout -b minha-nova-feature
+9. **Faça suas Alterações e Commit**
 
-### Making a Progressive Web App
+    ```bash
+        git add .
+        git commit -m "Adiciona minha nova feature"
+        
+10. **Push para o Repositório**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+     ```bash
+    git push origin minha-nova-feature
 
-### Advanced Configuration
+11. **Abra um Pull Request**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Vá para o repositório original e abra um Pull Request com suas mudanças.
 
-### Deployment
+Licença
+Este projeto está licenciado sob a Licença MIT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Se você tiver dúvidas ou precisar de ajuda, sinta-se à vontade para abrir uma issue ou entrar em contato com os mantenedores do projeto.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sinta-se à vontade para personalizar o README conforme necessário para se adequar às especificidades do seu projeto.
