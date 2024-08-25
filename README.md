@@ -4,7 +4,7 @@ Bem-vindo ao projeto **Família Amanhecer Platform**! Este é um aplicativo dese
 
 ## Funcionalidades
 
-- **Página Inicial**: Inclui um cabeçalho fixo, uma imagem de fundo e seções de sobre, vídeos e login.
+- **Página Inicial**: Inclui um cabeçalho fixo, uma imagem de fundo e seções de sobre, vídeos.
 - **Vídeos**: Exibe um carrossel de vídeos com controles para navegação.
 - **Cadastro e Login**: Permite que os usuários se cadastrem e façam login para acessar a dashboard.
 - **Dashboard**: Oferece acesso a vídeos e livros de referência com separação em seções.
@@ -50,8 +50,6 @@ Bem-vindo ao projeto **Família Amanhecer Platform**! Este é um aplicativo dese
 
     ```bash
     npm start
-
-    Isso iniciará a aplicação em http://localhost:3000.
 
 6. **Acesse o Projeto**
 
