@@ -50,6 +50,7 @@ Bem-vindo ao projeto **Família Amanhecer Platform**! Este é um aplicativo dese
 
     ```bash
     npm start
+
     Isso iniciará a aplicação em http://localhost:3000.
 
 6. **Acesse o Projeto**
