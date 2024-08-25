@@ -8,11 +8,6 @@
     background-position: center;
     background-repeat: no-repeat;
     height: auto; /* Altura ajustável */
-  }
-  
-  @media (max-width: 768px) {
-    .bg-container {
-      height: 80vh; /* Ajuste a altura em telas menores, se necessário */
-    }
-  }
+}
+
   

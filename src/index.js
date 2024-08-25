@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './index.css'; 
-import background from './assests/background.jpg'; 
+import './index.css';
+import background from './assests/background.jpg';
 import Header from './components/Header';
 import Sobre from './components/Sobre';
-import VideoCarousel from './components/VideoCarrossel'; 
+import VideoCarousel from './components/VideoCarrossel';
 import Login from './pages/Login';
 import Footer from './components/Footer';
-import Cadastrar from './pages/Cadastrar'; 
+import Cadastrar from './pages/Cadastrar';
 import Dashboard from './pages/Dashboard';
 import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; 
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
